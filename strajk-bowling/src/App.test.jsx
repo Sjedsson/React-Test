@@ -1,11 +1,11 @@
 import { describe, it, expect } from "vitest";
 
-describe("something truthy and falsy", () => {
-  it("true to be true", () => {
+describe("Boolean value assertions", () => {
+  it("should confirm that true equals true", () => {
     expect(true).toBe(true);
   });
 
-  it("false to be false", () => {
+  it("should confirm that false equals false", () => {
     expect(false).toBe(false);
   });
 });
