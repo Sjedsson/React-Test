@@ -20,7 +20,7 @@ Användarhistorier och Acceptanskriterier
      - Varje skostorleksfält har en borttagningsknapp.
      - Att klicka på borttagningsknappen tar bort motsvarande skostorleksfält.
 
-4. **Skicka Bokning**
+4. Skicka Bokning
    - Användarhistoria: Som användare vill jag kunna skicka min bokning och få ett bokningsnummer och totalbelopp så att jag vet hur mycket jag ska betala (120 kr/person + 100 kr/bana).
    - Acceptanskriterier:
      - Bokningsskickningen returnerar ett bokningsnummer.

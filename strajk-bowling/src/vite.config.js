@@ -1,13 +1,9 @@
-import { defineConfig as createViteConfig } from 'vite';
-import reactPlugin from '@vitejs/plugin-react';
+import { defineConfig } from 'vitest/config';
 
-const configuration = {
-  plugins: [reactPlugin()],
+export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    setupFiles: './src/setupTests.js'
-  }
-};
-
-export default createViteConfig(configuration);
+    setupFiles: './setupTests.js',
+  },
+});
